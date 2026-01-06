@@ -18,7 +18,6 @@ jobs:
           path: ~/.npm
           key: npm-${{ hashFiles('package-lock.json') }}
           restore-keys: npm-    
-
       - name: Install frontend deps
         run: npm install
         working-directory: .
