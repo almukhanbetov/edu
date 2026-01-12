@@ -7,7 +7,7 @@
             <a href="{{ route('login') }}" class="text-sm text-gray-300 hover:text-white">
                 Вход
             </a>
-            <a href="{{ route('register') }}" class="px-3 py-1 bg-green-500 text-black rounded text-sm">
+            <a href="{{ route('register') }}" class="px-3 py-1 bg-orange-500 text-white rounded text-sm">
                 Регистрация
             </a>
         @endguest
